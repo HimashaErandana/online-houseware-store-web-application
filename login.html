@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        #login-con{
+            margin-top: 250px;
+            visibility: visible;
+        }
+        #login{
+            border-style: groove;
+            border-radius: 15px;
+            border-width: 8px;
+            padding: 20px;
+           
+        }
+        #log{
+            color: white;
+            background-color: rgb(174, 160, 160);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="login-con">
+        <div class="row">
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-6" id="login">
+                <h2>LOGIN</h2>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember"> Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-default" name="login" id="log">login</button>
+          <button  type="button" class="btn btn-default" id="log">close</button>
+        </form>
+      </div>
+            </div>
+        </div>
+    
+</body>
+</html>
